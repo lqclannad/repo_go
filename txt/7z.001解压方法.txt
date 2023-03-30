@@ -1,0 +1,9 @@
+————————————
+Windows
+在命令行(cmd) 合并分卷
+copy /b input_file.7z.* output_file.7z
+
+————————————
+Linux
+需要下载p7zip包：sudo apt-get install p7zip-full
+合并分卷：cat input_file.7z.* > output_file.7z
